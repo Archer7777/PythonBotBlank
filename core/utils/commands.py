@@ -17,6 +17,16 @@ async def set_commands(bot: Bot):
         BotCommand(
             command='cancel',
             description='Сбросить'
+        ),
+
+        BotCommand(
+            command='contact',
+            description='Связаться со мной'
+        ),
+
+        BotCommand(
+            command='cv',
+            description='Моё резюме'
         )
     ]
 
